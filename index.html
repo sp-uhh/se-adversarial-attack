@@ -1,0 +1,43 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SE Adversarial Attack — demos</title>
+<link rel="stylesheet" href="assets/css/site.css">
+</head><body>
+<header>
+  <h1>Are Modern Speech Enhancement Systems Vulnerable to Adversarial Attacks?</h1>
+  <nav>
+    <a href="#overview">overview</a> ·
+    <a href="#paper">paper</a> ·
+    <a href="#code">code</a> ·
+    <a href="#audio">audio demos</a>
+  </nav>
+</header>
+
+<section id="overview">
+  <p>white-box targeted attacks on predictive vs diffusion SE with psychoacoustic hiding.</p>
+</section>
+
+<section id="paper">
+  <p>paper: <a href="https://arxiv.org/abs/XXXXX">arXiv</a> · project repo: <a href="https://github.com/sp-uhh/se-adversarial-attack">github</a></p>
+</section>
+
+<section id="code">
+  <p>code lives on <a href="https://github.com/sp-uhh/se-adversarial-attack/tree/main">main</a>. install & run instructions in README.</p>
+</section>
+
+<section id="audio">
+  <h2>audio comparisons</h2>
+  <!-- пример карточки: исходный шум, атакованный микс, выход SE -->
+  <div class="grid">
+    <article class="card">
+      <h3>pair_0001 · direct-map · λ=20 · ε=10</h3>
+      <p><small>src_noisy</small><br><audio controls src="audio/pair_0001/src_noisy.mp3"></audio></p>
+      <p><small>y + δ</small><br><audio controls src="audio/pair_0001/y_plus_dy.mp3"></audio></p>
+      <p><small>Ŝ(y+δ)</small><br><audio controls src="audio/pair_0001/prediction.mp3"></audio></p>
+    </article>
+  </div>
+</section>
+
+<footer><p>© sp-uhh · MIT license</p></footer>
+<script src="assets/js/site.js"></script>
+</body></html>
