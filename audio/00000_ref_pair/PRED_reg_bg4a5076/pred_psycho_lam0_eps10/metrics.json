@@ -1,0 +1,216 @@
+{
+  "folder": "00000_ref_pair",
+  "type": "experiment",
+  "nonintrusive": [
+    {
+      "file": "prediction.wav",
+      "distill_mos": 2.110389232635498,
+      "errors": {}
+    }
+  ],
+  "intrusive": [
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "pesq": 1.0465961694717407,
+      "estoi": 0.31514592631028737,
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "pesq": 1.860363245010376,
+      "estoi": 0.7771335793810423,
+      "errors": {}
+    }
+  ],
+  "wer": [
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large",
+      "wer": 0.9772727272727273,
+      "hyp": "We promote the",
+      "ref": "People look, but no one ever finds it. When a man looks for something beyond his reach, his friends say he's looking for a pot of gold at the end of the rainbow. Throughout the centuries, people have explained the rainbow in various ways.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v1",
+      "wer": 0.7727272727272727,
+      "hyp": "We've been lucky. Not yet, I hope so. But if you hope for something, they'll have this speech and his friends say it's a good word, and we'll repeat it every week. For all the centuries, people have explained the great, marvelous way",
+      "ref": "People look but no one ever finds it. When a man looks for something beyond his reach, his friends say he's looking for a pot of gold at the end of the rainbow. Throughout the centuries people have explained the rainbow in various ways.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v2",
+      "wer": 0.6363636363636364,
+      "hyp": "We promote the non-negative sides. But if one hopes for something beyond his speech, his friends say it is neither. But we'll continue to cover you. Throughout the centuries, people have explained the great law in various ways.",
+      "ref": "People look, but no one ever finds it. When a man looks for something beyond his reach, his friends say he's looking for a pot of gold at the end of the rainbow. Throughout the centuries, people have explained the rainbow in various ways.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v3",
+      "wer": 0.9772727272727273,
+      "hyp": "We promote the",
+      "ref": "People look, but no one ever finds it. When a man looks for something beyond his reach, his friends say he's looking for a pot of gold at the end of the rainbow. Throughout the centuries, people have explained the rainbow in various ways.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v3-turbo",
+      "wer": 0.8181818181818182,
+      "hyp": "We've been lucky. There's a million of us of science. But if Ian hopes for something, they are in this future, his friends say he's in favor, while we're thinking of everything. Throughout the centuries, the people have explained the great work here in this way.",
+      "ref": "People look, but no one ever finds it. When a man looks for something beyond his reach, his friends say he's looking for a pot of gold at the end of the rainbow. Throughout the centuries, people have explained the rainbow in various ways.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "turbo",
+      "wer": 0.8181818181818182,
+      "hyp": "We've been lucky. There's a million of us of science. But if Ian hopes for something, they are in this future, his friends say he's in favor, while we're thinking of everything. Throughout the centuries, the people have explained the great work here in this way.",
+      "ref": "People look, but no one ever finds it. When a man looks for something beyond his reach, his friends say he's looking for a pot of gold at the end of the rainbow. Throughout the centuries, people have explained the rainbow in various ways.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large",
+      "wer": 0.3684210526315789,
+      "hyp": "It might happen again in that cold, Dr. Spaulding. Insult, sir. What is it, then, the iconic reply? And you must have some water, my dear fellow. What is that crying about? Who wants a dead soul?",
+      "ref": "It might happen again, he added with an involuntary smile. It is sold, sir, was in the laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a dead soul?",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v1",
+      "wer": 0.3684210526315789,
+      "hyp": "It might happen again in Solcer, in the Neutronic Reply. And you must have some water, my dear fellow. What is that fine rap about? Who wants a dead soul?",
+      "ref": "It might happen again, he added with an involuntary smile. It is sold, sir, was in the laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a dead soul?",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v2",
+      "wer": 0.40540540540540543,
+      "hyp": "It might happen again in that gold spot in Solstheim. This is again the iconic reply. And you must have some water in mind, dear fellow. What is that crying about? Who wants a dead soul?",
+      "ref": "It might happen again, he added with an involuntary smile. It is sold, sir, was again the laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a dead...",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v3",
+      "wer": 0.3684210526315789,
+      "hyp": "It might happen again in that cold, Dr. Spaulding. Insult, sir. What is it, then, the iconic reply? And you must have some water, my dear fellow. What is that crying about? Who wants a dead soul?",
+      "ref": "It might happen again, he added with an involuntary smile. It is sold, sir, was in the laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a dead soul?",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v3-turbo",
+      "wer": 0.47368421052631576,
+      "hyp": "It might happen again in that case. The insults are, and the chronic reply, and you must have some water in my dear mother. What is that flying a rock about? Who wants a dead star?",
+      "ref": "It might happen again, he added with an involuntary smile. It is sold, sir, was in the laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a dead suit?",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "turbo",
+      "wer": 0.47368421052631576,
+      "hyp": "It might happen again in that case. The insults are, and the chronic reply, and you must have some water in my dear mother. What is that flying a rock about? Who wants a dead star?",
+      "ref": "It might happen again, he added with an involuntary smile. It is sold, sir, was in the laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a dead suit?",
+      "errors": {}
+    }
+  ],
+  "delta_level": {
+    "dy_minus_y1_rms_dbfs": -12.12747468334394,
+    "ypl_minus_y1_rms_dbfs": -2.8305659674322285,
+    "ypl_minus_y1_lufs": -3.515709403868584,
+    "dy_minus_y1_lufs": -11.171305685543416,
+    "errors": {}
+  },
+  "delta_lsd": {
+    "lsd_Y1_vs_Y1plus": 6.1337432861328125,
+    "lsd_Y1_vs_dy": 19.161314010620117
+  },
+  "delta_energy": {
+    "E_S1": 3.0102152824411856,
+    "E_N1": 0.0038393742880539427,
+    "E_S2": 0.07023382186989649,
+    "E_res": 4.955117702485131,
+    "frac_S1": 0.37443254074210747,
+    "frac_N1": 0.0004775693877848239,
+    "frac_S2": 0.008736195222372024,
+    "frac_res": 0.6163536946477356,
+    "SDR_S2_db": -20.54866918164272,
+    "SDR_S1_db": -2.2290056466763133,
+    "SDR_N1_db": -33.20756063987706,
+    "SDR_S2_vs_res_db": -18.48844047396072,
+    "SDR_S1_vs_res_db": -2.1679279291698257,
+    "SI_SAR": -2.058989834945473,
+    "coef_S1_ls": -0.1815514713525772,
+    "coef_N1_ls": -0.009790809825062752,
+    "coef_S2_ls": 0.029575860127806664
+  },
+  "delta_intrusive": {
+    "delta_pesq": -0.0822744369506836,
+    "delta_estoi": -0.30479891729975334,
+    "errors": {}
+  },
+  "delta_wer": [
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large",
+      "delta_wer": 0.3421052631578947,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v1",
+      "delta_wer": 0.368421052631579,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v2",
+      "delta_wer": 0.40540540540540543,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v3",
+      "delta_wer": 0.3421052631578947,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v3-turbo",
+      "delta_wer": 0.42105263157894735,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "turbo",
+      "delta_wer": 0.42105263157894735,
+      "errors": {}
+    }
+  ],
+  "delta_energy_2axis": {
+    "E_S1": 3.0096938610086905,
+    "E_S2": 0.07019574940304621,
+    "E_res": 4.958939552308129,
+    "frac_S1": 0.3743945542425718,
+    "frac_S2": 0.008732086225762771,
+    "frac_res": 0.6168733595316654,
+    "SDR_S2_vs_rest_db": -20.550730332448648,
+    "SDR_S1_vs_rest_db": -2.22970997425974,
+    "SDR_S2_vs_res_db": -18.490779995461587,
+    "SDR_S1_vs_res_db": -2.168664920040037,
+    "SI_SAR": -2.0685366365913,
+    "coef_S1_ls": -0.18153704702854156,
+    "coef_S2_ls": 0.02956802025437355
+  },
+  "psychoacoustic": {
+    "pvr": 0.07953387475296443,
+    "me_db_mean": 0.4742330471274844,
+    "me_excess_norm": 0.04924018981264353
+  }
+}

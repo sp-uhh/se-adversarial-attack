@@ -1,0 +1,216 @@
+{
+  "folder": "00057_random_p107_00575__p102_00622",
+  "type": "experiment",
+  "nonintrusive": [
+    {
+      "file": "prediction.wav",
+      "distill_mos": 3.1960537433624268,
+      "errors": {}
+    }
+  ],
+  "intrusive": [
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "pesq": 2.72729754447937,
+      "estoi": 0.8616775380389948,
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "pesq": 1.0458564758300781,
+      "estoi": 0.20233480101106965,
+      "errors": {}
+    }
+  ],
+  "wer": [
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large",
+      "wer": 0.0,
+      "hyp": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "ref": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v1",
+      "wer": 0.0,
+      "hyp": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "ref": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v2",
+      "wer": 0.0,
+      "hyp": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "ref": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v3",
+      "wer": 0.0,
+      "hyp": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "ref": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v3-turbo",
+      "wer": 0.0,
+      "hyp": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "ref": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "turbo",
+      "wer": 0.0,
+      "hyp": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "ref": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large",
+      "wer": 1.1923076923076923,
+      "hyp": "When the sunlight strikes raindrops in the air, they act as a prism in the middle of the rainbow. The rainbow is a division of white light into many capable colors.",
+      "ref": "Oh, sorry, we'll break bones. I'm very glad to see you. This question observed all his mental powers. Before going away forever, I'll tell him all.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v1",
+      "wer": 1.0,
+      "hyp": "When the sunlight strikes raindrops in the air, they act as a prism of the rainbow. The rainbow is a division of white light into many capable colors.",
+      "ref": "Oh, sorry, will break bones. I am very glad to see you. This question observed all his mental powers before going away forever I'll tell him all out. I told you",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v2",
+      "wer": 1.0,
+      "hyp": "When the sunlight strikes raindrops in the air, they act as a prism. The rainbow is a division of light into many categories.",
+      "ref": "Oh, sorry, we'll break bones. I am very glad to see you. This question absorbs all his mental powers. Before going away forever, I'll tell him all. I told you...",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v3",
+      "wer": 1.1923076923076923,
+      "hyp": "When the sunlight strikes raindrops in the air, they act as a prism in the middle of the rainbow. The rainbow is a division of white light into many capable colors.",
+      "ref": "Oh, sorry, we'll break bones. I'm very glad to see you. This question observed all his mental powers. Before going away forever, I'll tell him all.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v3-turbo",
+      "wer": 1.0,
+      "hyp": "When the sunlight strikes raindrops in the air, they act as a prism. Rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "ref": "Oh, sorry, Will Break Bones. I am very glad to see you. This question observed all his mental powers. Before going away forever, I'll tell him all. I told you.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "turbo",
+      "wer": 1.0,
+      "hyp": "When the sunlight strikes raindrops in the air, they act as a prism. Rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "ref": "Oh, sorry, Will Break Bones. I am very glad to see you. This question observed all his mental powers. Before going away forever, I'll tell him all. I told you.",
+      "errors": {}
+    }
+  ],
+  "delta_level": {
+    "dy_minus_y1_rms_dbfs": -2.1255075589493444,
+    "ypl_minus_y1_rms_dbfs": -3.466255579181478,
+    "ypl_minus_y1_lufs": -3.182073145775057,
+    "dy_minus_y1_lufs": -1.7614262940463448,
+    "errors": {}
+  },
+  "delta_lsd": {
+    "lsd_Y1_vs_Y1plus": 12.24402904510498,
+    "lsd_Y1_vs_dy": 11.7560453414917
+  },
+  "delta_energy": {
+    "E_S1": 25.395566940308616,
+    "E_N1": 0.059267714620636534,
+    "E_S2": 6.783093929291772,
+    "E_res": 20.879459381104514,
+    "frac_S1": 0.47810270634705476,
+    "frac_N1": 0.0011157874453338306,
+    "frac_S2": 0.1277000656304806,
+    "frac_res": 0.39308144057713085,
+    "SDR_S2_db": -8.344747193343645,
+    "SDR_S1_db": -0.38063842717719487,
+    "SDR_N1_db": -29.519336786358025,
+    "SDR_S2_vs_res_db": -4.895224455486752,
+    "SDR_S1_vs_res_db": 0.8380763605456549,
+    "SI_SAR": 1.8864787931495424,
+    "coef_S1_ls": -0.5492613911628723,
+    "coef_N1_ls": -0.1611703634262085,
+    "coef_S2_ls": 1.560921549797058
+  },
+  "delta_intrusive": {
+    "delta_pesq": -0.4857971668243408,
+    "delta_estoi": -0.6394021906608913,
+    "errors": {}
+  },
+  "delta_wer": [
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large",
+      "delta_wer": 0.8,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v1",
+      "delta_wer": 0.935483870967742,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v2",
+      "delta_wer": 0.9032258064516129,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v3",
+      "delta_wer": 0.8,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v3-turbo",
+      "delta_wer": 0.9333333333333333,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "turbo",
+      "delta_wer": 0.9333333333333333,
+      "errors": {}
+    }
+  ],
+  "delta_energy_2axis": {
+    "E_S1": 25.40244674682717,
+    "E_S2": 6.785548210145043,
+    "E_res": 20.93870162963967,
+    "frac_S1": 0.47814843344181646,
+    "frac_S2": 0.12772388735073403,
+    "frac_res": 0.39412767920744946,
+    "SDR_S2_vs_rest_db": -8.343818513762463,
+    "SDR_S1_vs_rest_db": -0.3798425428865949,
+    "SDR_S2_vs_res_db": -4.893648079464868,
+    "SDR_S1_vs_res_db": 0.839258012151513,
+    "SI_SAR": 1.867441762361772,
+    "coef_S1_ls": -0.5493372082710266,
+    "coef_S2_ls": 1.56121027469635
+  },
+  "psychoacoustic": {
+    "pvr": 0.8085880887681159,
+    "me_db_mean": 10.820878231815682,
+    "me_excess_norm": 0.8718477051567243
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "folder": "00036_random_p107_00584__p103_00769",
+  "type": "experiment",
+  "nonintrusive": [
+    {
+      "file": "prediction.wav",
+      "distill_mos": 1.8640923500061035,
+      "errors": {}
+    }
+  ],
+  "intrusive": [
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "pesq": 1.0877571105957031,
+      "estoi": 0.1872395506650045,
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "pesq": 1.9182350635528564,
+      "estoi": 0.815860067436021,
+      "errors": {}
+    }
+  ],
+  "wer": [
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large",
+      "wer": 0.975,
+      "hyp": "Perhaps even relatively we can do much to swan over. The biggest tool serve was the dumpster 25. In Newmark testing lots of ideas come up. What is that story about? Who wants a dead bird to store their gold pieces?",
+      "ref": "The difference in the rainbow depends considerably upon the size of the drops, and the width of the colored band increases as the size of the drops increases. The actual primary rainbow observed is said to be the primary rainbow.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v1",
+      "wer": 1.054054054054054,
+      "hyp": "Yes, that and radicalism can force the swung over. It is still served by the Nazis by 1945. And we must ask them what is my dear fellow, what is that story about? Who wants a great court story about gold?",
+      "ref": "The difference in the rainbow depends considerably upon the size of the drops, and the width of the colored band increases as the size of the drops increases. The actual primary rainbow observed is said to be",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v2",
+      "wer": 1.1081081081081081,
+      "hyp": "Yes, that's the only way to prove you can launch the swan. It is true that it was about this before in 2005. In remote testing it was quite near several. What is that story about? Who wants a red-cloaked swan headcoat?",
+      "ref": "The difference in the rainbow depends considerably upon the size of the drops and the width of the colored band increases as the size of the drops increases. The actual primary rainbow observed is said to be...",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v3",
+      "wer": 0.975,
+      "hyp": "Perhaps even relatively we can do much to swan over. The biggest tool serve was the dumpster 25. In Newmark testing lots of ideas come up. What is that story about? Who wants a dead bird to store their gold pieces?",
+      "ref": "The difference in the rainbow depends considerably upon the size of the drops, and the width of the colored band increases as the size of the drops increases. The actual primary rainbow observed is said to be the primary rainbow.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v3-turbo",
+      "wer": 1.0,
+      "hyp": "Yes, perhaps any predator you can do is swargo. And it still serves was an 1825. And you are testing water quite years ago. What is that story about? Who wants a great first or the goat?",
+      "ref": "The difference in the rainbow depends considerably upon the size of the drops, and the width of the colored band increases as the size of the drops increases. The actual primary rainbow observed is said to be...",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "turbo",
+      "wer": 1.0,
+      "hyp": "Yes, perhaps any predator you can do is swargo. And it still serves was an 1825. And you are testing water quite years ago. What is that story about? Who wants a great first or the goat?",
+      "ref": "The difference in the rainbow depends considerably upon the size of the drops, and the width of the colored band increases as the size of the drops increases. The actual primary rainbow observed is said to be...",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large",
+      "wer": 0.04878048780487805,
+      "hyp": "It might happen, he added with an involuntary smile. It is so, sir, was again his laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a dead cert for the gold cup?",
+      "ref": "It might happen, he added with an involuntary smile. It is salt, sir, was again his laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a dead search for the gold cup?",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v1",
+      "wer": 0.04878048780487805,
+      "hyp": "It might happen he added with an involuntary smile. It is all sir was again his laconic reply. And you must have some water my dear fellow. What is that flying about? Who wants a dead sir for the gold cup?",
+      "ref": "It might happen, he added with an involuntary smile. It is sold, sir, was again his laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a dead third for the gold cup?",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v2",
+      "wer": 0.024390243902439025,
+      "hyp": "It might happen, he added with an involuntary smile. It is so, sir, was again his laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a dead sirk for the gold cup?",
+      "ref": "It might happen, he added with an involuntary smile. It is so, sir, was again his laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a dead cert for the gold cup?",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v3",
+      "wer": 0.04878048780487805,
+      "hyp": "It might happen, he added with an involuntary smile. It is so, sir, was again his laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a dead cert for the gold cup?",
+      "ref": "It might happen, he added with an involuntary smile. It is salt, sir, was again his laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a dead search for the gold cup?",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v3-turbo",
+      "wer": 0.024390243902439025,
+      "hyp": "It might happen, he added with an involuntary smile. It is salt, sir, was against his laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a dead cert for the gold cup?",
+      "ref": "It might happen, he added with an involuntary smile. It is salt, sir, was again his laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a dead cert for the gold cup?",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "turbo",
+      "wer": 0.024390243902439025,
+      "hyp": "It might happen, he added with an involuntary smile. It is salt, sir, was against his laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a dead cert for the gold cup?",
+      "ref": "It might happen, he added with an involuntary smile. It is salt, sir, was again his laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a dead cert for the gold cup?",
+      "errors": {}
+    }
+  ],
+  "delta_level": {
+    "dy_minus_y1_rms_dbfs": -15.418888001749167,
+    "ypl_minus_y1_rms_dbfs": -3.9981213592889304,
+    "ypl_minus_y1_lufs": -4.222340179092338,
+    "dy_minus_y1_lufs": -14.301100152172321,
+    "errors": {}
+  },
+  "delta_lsd": {
+    "lsd_Y1_vs_Y1plus": 6.674943923950195,
+    "lsd_Y1_vs_dy": 17.857147216796875
+  },
+  "delta_energy": {
+    "E_S1": 1.318211078644799,
+    "E_N1": 0.004169413355247809,
+    "E_S2": 0.10272892564635142,
+    "E_res": 4.38890266418557,
+    "frac_S1": 0.22673002052473146,
+    "frac_N1": 0.0007171318697937837,
+    "frac_S2": 0.017669197139676737,
+    "frac_res": 0.754883650465798,
+    "SDR_S2_db": -17.450409460921282,
+    "SDR_S1_db": -5.328221226279234,
+    "SDR_N1_db": -31.440894186066593,
+    "SDR_S2_vs_res_db": -16.310755826088858,
+    "SDR_S1_vs_res_db": -5.227833715718635,
+    "SI_SAR": -4.885077392264355,
+    "coef_S1_ls": -0.0832701325416565,
+    "coef_N1_ls": -0.01812228187918663,
+    "coef_S2_ls": 0.018150560557842255
+  },
+  "delta_intrusive": {
+    "delta_pesq": -0.34163737297058105,
+    "delta_estoi": -0.1993925908560762,
+    "errors": {}
+  },
+  "delta_wer": [
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large",
+      "delta_wer": 0.024390243902439025,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v1",
+      "delta_wer": 0.04878048780487805,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v2",
+      "delta_wer": 0.024390243902439025,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v3",
+      "delta_wer": 0.024390243902439025,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v3-turbo",
+      "delta_wer": 0.024390243902439025,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "turbo",
+      "delta_wer": 0.024390243902439025,
+      "errors": {}
+    }
+  ],
+  "delta_energy_2axis": {
+    "E_S1": 1.317834258080529,
+    "E_S2": 0.102999247611569,
+    "E_res": 4.393066406251,
+    "frac_S1": 0.22666958118308708,
+    "frac_S2": 0.01771603384502452,
+    "frac_res": 0.7556143849718884,
+    "SDR_S2_vs_rest_db": -17.43870553807881,
+    "SDR_S1_vs_rest_db": -5.329718512327001,
+    "SDR_S2_vs_res_db": -16.299337158910735,
+    "SDR_S1_vs_res_db": -5.2290697500954675,
+    "SI_SAR": -4.902245782111157,
+    "coef_S1_ls": -0.08325885236263275,
+    "coef_S2_ls": 0.01817452162504196
+  },
+  "psychoacoustic": {
+    "pvr": 0.12750915339157246,
+    "me_db_mean": 0.8712293973213109,
+    "me_excess_norm": 0.04607240195995316
+  }
+}

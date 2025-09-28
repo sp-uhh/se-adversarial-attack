@@ -1,0 +1,32 @@
+{
+  "folder": "00000_ref_pair",
+  "type": "reference",
+  "nonintrusive": [
+    {
+      "file": "src_clean.wav",
+      "distill_mos": 4.640838623046875,
+      "nisqa": null,
+      "rms": 0.018774880212432125,
+      "rms_dbfs": -34.52845650404785,
+      "errors": {}
+    },
+    {
+      "file": "src_noisy.wav",
+      "distill_mos": 2.6268811225891113,
+      "nisqa": null,
+      "rms": 0.022495568046415556,
+      "rms_dbfs": -32.95806071561936,
+      "errors": {}
+    },
+    {
+      "file": "tgt_clean.wav",
+      "distill_mos": 4.656373023986816,
+      "nisqa": null,
+      "rms": 0.01760410672633001,
+      "rms_dbfs": -35.08772014310926,
+      "errors": {}
+    }
+  ],
+  "intrusive": [],
+  "wer": []
+}

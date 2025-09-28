@@ -1,0 +1,32 @@
+{
+  "folder": "00036_random_p107_00584__p103_00769",
+  "type": "reference",
+  "nonintrusive": [
+    {
+      "file": "src_clean.wav",
+      "distill_mos": 4.6828413009643555,
+      "nisqa": null,
+      "rms": 0.027614979475079505,
+      "rms_dbfs": -31.177105504618517,
+      "errors": {}
+    },
+    {
+      "file": "src_noisy.wav",
+      "distill_mos": 3.362205982208252,
+      "nisqa": null,
+      "rms": 0.028505666462722477,
+      "rms_dbfs": -30.90137601464994,
+      "errors": {}
+    },
+    {
+      "file": "tgt_clean.wav",
+      "distill_mos": 4.53718376159668,
+      "nisqa": null,
+      "rms": 0.03536696869960072,
+      "rms_dbfs": -29.028043238792538,
+      "errors": {}
+    }
+  ],
+  "intrusive": [],
+  "wer": []
+}

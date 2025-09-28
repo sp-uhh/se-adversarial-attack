@@ -1,0 +1,216 @@
+{
+  "folder": "00057_random_p107_00575__p102_00622",
+  "type": "experiment",
+  "nonintrusive": [
+    {
+      "file": "prediction.wav",
+      "distill_mos": 1.7095916271209717,
+      "errors": {}
+    }
+  ],
+  "intrusive": [
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "pesq": 1.0408896207809448,
+      "estoi": 0.08995840441654564,
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "pesq": 1.1781578063964844,
+      "estoi": 0.5942632451099638,
+      "errors": {}
+    }
+  ],
+  "wer": [
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large",
+      "wer": 0.9655172413793104,
+      "hyp": "So that's kind of straight up some way to recap this. So, I'm gonna go ahead and add a few more things.",
+      "ref": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v1",
+      "wer": 1.0,
+      "hyp": "I'm sorry, I was going to say, I was completely happy. I was so excited about this. I'm so happy.",
+      "ref": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v2",
+      "wer": 1.0,
+      "hyp": "I'm sorry to bring it up so frequently, but I'm sorry. I'm sorry.",
+      "ref": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v3",
+      "wer": 0.9655172413793104,
+      "hyp": "So that's kind of straight up some way to recap this. So, I'm gonna go ahead and add a few more things.",
+      "ref": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v3-turbo",
+      "wer": 1.0,
+      "hyp": "So that's kind of strange, obviously, we have to. So we're going to have to see.",
+      "ref": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "turbo",
+      "wer": 1.0,
+      "hyp": "So that's kind of strange, obviously, we have to. So we're going to have to see.",
+      "ref": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large",
+      "wer": 0.38461538461538464,
+      "hyp": "Pastor, you break bones. I am very glad to see you. This question has worked all his mental powers. Before going away forever, I'll tell him all. I told you",
+      "ref": "Oh, sorry, we'll break bones. I'm very glad to see you. This question observed all his mental powers. Before going away forever, I'll tell him all.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v1",
+      "wer": 0.3548387096774194,
+      "hyp": "I'm very glad to see you. This question has worked all of his mental powers. Before going away forever, I'll tell him all. I told you...",
+      "ref": "Oh, sorry, will break bones. I am very glad to see you. This question observed all his mental powers before going away forever I'll tell him all out. I told you",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v2",
+      "wer": 0.26666666666666666,
+      "hyp": "Pursuit will break bones. I am very glad to see you. This question has worked all of his mental powers. Before going away forever, I'll tell him all. I'll tell you...",
+      "ref": "Oh, sorry, we'll break bones. I am very glad to see you. This question absorbs all his mental powers. Before going away forever, I'll tell him all. I told you...",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v3",
+      "wer": 0.38461538461538464,
+      "hyp": "Pastor, you break bones. I am very glad to see you. This question has worked all his mental powers. Before going away forever, I'll tell him all. I told you",
+      "ref": "Oh, sorry, we'll break bones. I'm very glad to see you. This question observed all his mental powers. Before going away forever, I'll tell him all.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v3-turbo",
+      "wer": 0.2,
+      "hyp": "Hi sir, you break bones. I am very glad to see you. This question is worth all of his mental powers before going away forever. I'll tell him all. I told you...",
+      "ref": "Oh, sorry, Will Break Bones. I am very glad to see you. This question observed all his mental powers. Before going away forever, I'll tell him all. I told you.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "turbo",
+      "wer": 0.2,
+      "hyp": "Hi sir, you break bones. I am very glad to see you. This question is worth all of his mental powers before going away forever. I'll tell him all. I told you...",
+      "ref": "Oh, sorry, Will Break Bones. I am very glad to see you. This question observed all his mental powers. Before going away forever, I'll tell him all. I told you.",
+      "errors": {}
+    }
+  ],
+  "delta_level": {
+    "dy_minus_y1_rms_dbfs": -4.757264061500678,
+    "ypl_minus_y1_rms_dbfs": 0.1753629713169147,
+    "ypl_minus_y1_lufs": 0.7351389173647718,
+    "dy_minus_y1_lufs": 0.9766666185421684,
+    "errors": {}
+  },
+  "delta_lsd": {
+    "lsd_Y1_vs_Y1plus": 9.034247398376465,
+    "lsd_Y1_vs_dy": 15.207206726074219
+  },
+  "delta_energy": {
+    "E_S1": 0.06432615965704783,
+    "E_N1": 1.3474192196659968e-06,
+    "E_S2": 0.011816542596624924,
+    "E_res": 28.863059997559592,
+    "frac_S1": 0.0022228033484286334,
+    "frac_N1": 4.656034137866529e-08,
+    "frac_S2": 0.00040832299939344617,
+    "frac_res": 0.9973688270918366,
+    "SDR_S2_db": -33.88818788472863,
+    "SDR_S1_db": -26.52132531951321,
+    "SDR_N1_db": -73.31983823894848,
+    "SDR_S2_vs_res_db": -33.87851967543981,
+    "SDR_S1_vs_res_db": -26.519547680967484,
+    "SI_SAR": -25.787064013667766,
+    "coef_S1_ls": -0.027643557637929916,
+    "coef_N1_ls": -0.0007684706943109632,
+    "coef_S2_ls": 0.0651496946811676
+  },
+  "delta_intrusive": {
+    "delta_pesq": -0.4365353584289551,
+    "delta_estoi": -0.26313209088254796,
+    "errors": {}
+  },
+  "delta_wer": [
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large",
+      "delta_wer": -0.033333333333333326,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v1",
+      "delta_wer": 0.2903225806451613,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v2",
+      "delta_wer": 0.16129032258064516,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v3",
+      "delta_wer": -0.033333333333333326,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v3-turbo",
+      "delta_wer": 0.16666666666666669,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "turbo",
+      "delta_wer": 0.16666666666666669,
+      "errors": {}
+    }
+  ],
+  "delta_energy_2axis": {
+    "E_S1": 0.06432750076155527,
+    "E_S2": 0.011816801504300667,
+    "E_res": 28.862823486329123,
+    "frac_S1": 0.002222867837978213,
+    "frac_S2": 0.0004083352796348783,
+    "frac_res": 0.9973687968823869,
+    "SDR_S2_vs_rest_db": -33.88805722004709,
+    "SDR_S1_vs_rest_db": -26.521199040042642,
+    "SDR_S2_vs_res_db": -33.87838872982593,
+    "SDR_S1_vs_res_db": -26.51942134790889,
+    "SI_SAR": -25.787014019486673,
+    "coef_S1_ls": -0.027643918991088867,
+    "coef_S2_ls": 0.06515107303857803
+  },
+  "psychoacoustic": {
+    "pvr": 0.3947350543478261,
+    "me_db_mean": 3.221128115243268,
+    "me_excess_norm": 0.21268258662349035
+  }
+}

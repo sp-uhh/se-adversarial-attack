@@ -1,0 +1,216 @@
+{
+  "folder": "00003_random_p102_00125__p103_00100",
+  "type": "experiment",
+  "nonintrusive": [
+    {
+      "file": "prediction.wav",
+      "distill_mos": 1.4822583198547363,
+      "errors": {}
+    }
+  ],
+  "intrusive": [
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "pesq": 1.1000773906707764,
+      "estoi": 0.4515247984867109,
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "pesq": 3.310462236404419,
+      "estoi": 0.8834911333876054,
+      "errors": {}
+    }
+  ],
+  "wer": [
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large",
+      "wer": 0.4583333333333333,
+      "hyp": "Well, this is the worst thing I've ever had. I've got so many hair. I'm in terrible pain from the temptation.",
+      "ref": "Oh, this headache is the worst one I've ever had. My foot hurts so badly right now. I'm in terrible pain from that medication.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v1",
+      "wer": 2.4166666666666665,
+      "hyp": "I'm sorry. Paul, this is the worst thing I've ever had. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry.",
+      "ref": "Oh, this headache is the worst one I've ever had. My foot hurts so badly right now. I'm in terrible pain from that medication.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v2",
+      "wer": 0.5833333333333334,
+      "hyp": "All this anger is the worst that I've ever been through in a day. My father is so afraid of me. I'm in terrible pain from that vacation.",
+      "ref": "Oh, this headache is the worst one I've ever had. My foot hurts so badly right now. I'm in terrible pain from that medication.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v3",
+      "wer": 0.4583333333333333,
+      "hyp": "Well, this is the worst thing I've ever had. I've got so many hair. I'm in terrible pain from the temptation.",
+      "ref": "Oh, this headache is the worst one I've ever had. My foot hurts so badly right now. I'm in terrible pain from that medication.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v3-turbo",
+      "wer": 0.4583333333333333,
+      "hyp": "Well, this is the work that I've ever had. I've got her so happy right now. I'm a terrible fan from that vacation.",
+      "ref": "Oh, this headache is the worst one I've ever had. My foot hurts so badly right now. I'm in terrible pain from that medication.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "turbo",
+      "wer": 0.4583333333333333,
+      "hyp": "Well, this is the work that I've ever had. I've got her so happy right now. I'm a terrible fan from that vacation.",
+      "ref": "Oh, this headache is the worst one I've ever had. My foot hurts so badly right now. I'm in terrible pain from that medication.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large",
+      "wer": 0.0,
+      "hyp": "I only heard it last night. We had now got into the month of March. But go thy ways, I had forgot. Conceited fellow with his waxed-up mustache. Anne's unhappiness continued.",
+      "ref": "I only heard it last night. We had now got into the month of March. But go thy ways, I had forgot. Conceited fellow with his waxed-up mustache. Anne's unhappiness continued.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v1",
+      "wer": 0.03125,
+      "hyp": "I only heard it last night. We had now got into the month of March. But go thy ways, I had forgot. Conceited fellow with his waxed-up mustache. Anne's unhappiness continued.",
+      "ref": "I only heard it last night. We had now got into the month of March. But go thy ways, I had forgot. Conceited fellow with his waxed up mustache. Anne's unhappiness continues.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v2",
+      "wer": 0.03125,
+      "hyp": "I only heard it last night. We had now got into the month of March, but go thy ways I had forgot. Conceited fellow with his waxed-up mustache. Anne's unhappiness continued.",
+      "ref": "I only heard it last night. We had now got into the month of March, but go thy ways I had forgot. Conceited fellow with his waxed-on mustache. Anne's unhappiness continued.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v3",
+      "wer": 0.0,
+      "hyp": "I only heard it last night. We had now got into the month of March. But go thy ways, I had forgot. Conceited fellow with his waxed-up mustache. Anne's unhappiness continued.",
+      "ref": "I only heard it last night. We had now got into the month of March. But go thy ways, I had forgot. Conceited fellow with his waxed-up mustache. Anne's unhappiness continued.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v3-turbo",
+      "wer": 0.09375,
+      "hyp": "I only heard it last night. We had now got into the month of March. But go thy ways, I had forgotten. Conceited fellow with his waxed on mustache. And unhappiness continued.",
+      "ref": "I only heard it last night. We had now got into the month of March. But go thy ways, I had forgot. Conceited fellow with his waxed-up mustache. Anne's unhappiness continued.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "turbo",
+      "wer": 0.09375,
+      "hyp": "I only heard it last night. We had now got into the month of March. But go thy ways, I had forgotten. Conceited fellow with his waxed on mustache. And unhappiness continued.",
+      "ref": "I only heard it last night. We had now got into the month of March. But go thy ways, I had forgot. Conceited fellow with his waxed-up mustache. Anne's unhappiness continued.",
+      "errors": {}
+    }
+  ],
+  "delta_level": {
+    "dy_minus_y1_rms_dbfs": -20.03112977996735,
+    "ypl_minus_y1_rms_dbfs": -0.31056084055852295,
+    "ypl_minus_y1_lufs": -0.492118002203334,
+    "dy_minus_y1_lufs": -17.87631801489068,
+    "errors": {}
+  },
+  "delta_lsd": {
+    "lsd_Y1_vs_Y1plus": 5.1279988288879395,
+    "lsd_Y1_vs_dy": 21.00849723815918
+  },
+  "delta_energy": {
+    "E_S1": 0.00017591736204805022,
+    "E_N1": 3.3958292169255975e-05,
+    "E_S2": 0.007246306632714106,
+    "E_res": 0.019109822810696196,
+    "frac_S1": 0.006621897473917144,
+    "frac_N1": 0.0012782611478264194,
+    "frac_S2": 0.2727661387583342,
+    "frac_res": 0.7193337026199222,
+    "SDR_S2_db": -4.2588363624327314,
+    "SDR_S1_db": -21.761321300827092,
+    "SDR_N1_db": -28.92824914191383,
+    "SDR_S2_vs_res_db": -4.219110121757107,
+    "SDR_S1_vs_res_db": -20.367190157683922,
+    "SI_SAR": -4.087401432248602,
+    "coef_S1_ls": -0.008317374624311924,
+    "coef_N1_ls": -0.0155036561191082,
+    "coef_S2_ls": 0.007085531484335661
+  },
+  "delta_intrusive": {
+    "delta_pesq": -0.10075211524963379,
+    "delta_estoi": -0.05429635262136023,
+    "errors": {}
+  },
+  "delta_wer": [
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large",
+      "delta_wer": 0.0,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v1",
+      "delta_wer": -0.03125,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v2",
+      "delta_wer": -0.03125,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v3",
+      "delta_wer": 0.0,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v3-turbo",
+      "delta_wer": 0.05882352941176472,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "turbo",
+      "delta_wer": 0.05882352941176472,
+      "errors": {}
+    }
+  ],
+  "delta_energy_2axis": {
+    "E_S1": 0.00017594453047378158,
+    "E_S2": 0.007245482877896859,
+    "E_res": 0.01914374530415399,
+    "frac_S1": 0.006623127670870717,
+    "frac_S2": 0.2727436767042303,
+    "frac_res": 0.7206331956248989,
+    "SDR_S2_vs_rest_db": -4.259328153241325,
+    "SDR_S1_vs_rest_db": -21.76050917774377,
+    "SDR_S2_vs_res_db": -4.219595731320956,
+    "SDR_S1_vs_res_db": -20.366511370007746,
+    "SI_SAR": -4.115394638028648,
+    "coef_S1_ls": -0.008318066596984863,
+    "coef_S2_ls": 0.007085167802870274
+  },
+  "psychoacoustic": {
+    "pvr": 0.14617159697508897,
+    "me_db_mean": 0.869890654664362,
+    "me_excess_norm": 0.027835349867644743
+  }
+}

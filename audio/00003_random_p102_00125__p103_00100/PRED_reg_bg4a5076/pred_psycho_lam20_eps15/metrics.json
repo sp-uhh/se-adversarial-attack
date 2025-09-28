@@ -1,0 +1,216 @@
+{
+  "folder": "00003_random_p102_00125__p103_00100",
+  "type": "experiment",
+  "nonintrusive": [
+    {
+      "file": "prediction.wav",
+      "distill_mos": 2.215522289276123,
+      "errors": {}
+    }
+  ],
+  "intrusive": [
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "pesq": 1.3745630979537964,
+      "estoi": 0.5103243348962403,
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "pesq": 1.0531708002090454,
+      "estoi": 0.25050869714710583,
+      "errors": {}
+    }
+  ],
+  "wer": [
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large",
+      "wer": 0.20833333333333334,
+      "hyp": "Oh, this headache is the worst pain I've ever had. My heart hurts so badly right now. I'm a terrible fan of that medication.",
+      "ref": "Oh, this headache is the worst one I've ever had. My foot hurts so badly right now. I'm in terrible pain from that medication.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v1",
+      "wer": 0.125,
+      "hyp": "Well, this is the worst thing I've ever had. My foot hurts so badly right now. I'm in terrible pain from that medication.",
+      "ref": "Oh, this headache is the worst one I've ever had. My foot hurts so badly right now. I'm in terrible pain from that medication.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v2",
+      "wer": 0.08333333333333333,
+      "hyp": "Oh, this headache is the worst thing I've ever had. My throat hurts so badly right now. I'm in terrible pain from that medication.",
+      "ref": "Oh, this headache is the worst one I've ever had. My foot hurts so badly right now. I'm in terrible pain from that medication.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v3",
+      "wer": 0.20833333333333334,
+      "hyp": "Oh, this headache is the worst pain I've ever had. My heart hurts so badly right now. I'm a terrible fan of that medication.",
+      "ref": "Oh, this headache is the worst one I've ever had. My foot hurts so badly right now. I'm in terrible pain from that medication.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v3-turbo",
+      "wer": 0.125,
+      "hyp": "Oh, this headache is the worst one I've ever had. My phone hurts so badly right now. I'm a terrible fan from that medication.",
+      "ref": "Oh, this headache is the worst one I've ever had. My foot hurts so badly right now. I'm in terrible pain from that medication.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "turbo",
+      "wer": 0.125,
+      "hyp": "Oh, this headache is the worst one I've ever had. My phone hurts so badly right now. I'm a terrible fan from that medication.",
+      "ref": "Oh, this headache is the worst one I've ever had. My foot hurts so badly right now. I'm in terrible pain from that medication.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large",
+      "wer": 0.9375,
+      "hyp": "Well, this is the best thing I've ever had in my life. I'm so, so happy with it. I'm totally in meditation.",
+      "ref": "I only heard it last night. We had now got into the month of March. But go thy ways, I had forgot. Conceited fellow with his waxed-up mustache. Anne's unhappiness continued.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v1",
+      "wer": 0.96875,
+      "hyp": "Well, this is the first time I've ever been in a place that's so badly damaged. I'm terrible at meditation.",
+      "ref": "I only heard it last night. We had now got into the month of March. But go thy ways, I had forgot. Conceited fellow with his waxed up mustache. Anne's unhappiness continues.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v2",
+      "wer": 1.0,
+      "hyp": "Well, this is one I've never been in my life. This is so badly ugly. I'm terrible at meditation.",
+      "ref": "I only heard it last night. We had now got into the month of March, but go thy ways I had forgot. Conceited fellow with his waxed-on mustache. Anne's unhappiness continued.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v3",
+      "wer": 0.9375,
+      "hyp": "Well, this is the best thing I've ever had in my life. I'm so, so happy with it. I'm totally in meditation.",
+      "ref": "I only heard it last night. We had now got into the month of March. But go thy ways, I had forgot. Conceited fellow with his waxed-up mustache. Anne's unhappiness continued.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v3-turbo",
+      "wer": 1.0,
+      "hyp": "Well, this is what I've ever been to. This is so bad that I've been to. I'm totally amatitious.",
+      "ref": "I only heard it last night. We had now got into the month of March. But go thy ways, I had forgot. Conceited fellow with his waxed-up mustache. Anne's unhappiness continued.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "turbo",
+      "wer": 1.0,
+      "hyp": "Well, this is what I've ever been to. This is so bad that I've been to. I'm totally amatitious.",
+      "ref": "I only heard it last night. We had now got into the month of March. But go thy ways, I had forgot. Conceited fellow with his waxed-up mustache. Anne's unhappiness continued.",
+      "errors": {}
+    }
+  ],
+  "delta_level": {
+    "dy_minus_y1_rms_dbfs": 9.16593205311613,
+    "ypl_minus_y1_rms_dbfs": 8.887244864028922,
+    "ypl_minus_y1_lufs": 10.175394422593648,
+    "dy_minus_y1_lufs": 9.809485089024534,
+    "errors": {}
+  },
+  "delta_lsd": {
+    "lsd_Y1_vs_Y1plus": 14.619135856628418,
+    "lsd_Y1_vs_dy": 13.735071182250977
+  },
+  "delta_energy": {
+    "E_S1": 1.6433385610590445,
+    "E_N1": 0.005010155496256186,
+    "E_S2": 4.676421642304467,
+    "E_res": 15.78974723816018,
+    "frac_S1": 0.07431039604863429,
+    "frac_N1": 0.00022655504350369967,
+    "frac_S2": 0.21146387759933052,
+    "frac_res": 0.7139991713085315,
+    "SDR_S2_db": -5.715854013355464,
+    "SDR_S1_db": -10.95415810418939,
+    "SDR_N1_db": -36.44727862484927,
+    "SDR_S2_vs_res_db": -5.285992978166409,
+    "SDR_S1_vs_res_db": -9.82785913439484,
+    "SI_SAR": -3.973304162143709,
+    "coef_S1_ls": -0.8038877844810486,
+    "coef_N1_ls": -0.18831583857536316,
+    "coef_S2_ls": 0.17999933660030365
+  },
+  "delta_intrusive": {
+    "delta_pesq": -0.44979679584503174,
+    "delta_estoi": -0.5989186009815946,
+    "errors": {}
+  },
+  "delta_wer": [
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large",
+      "delta_wer": 0.9375,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v1",
+      "delta_wer": 0.9375,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v2",
+      "delta_wer": 0.9375,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v3",
+      "delta_wer": 0.9375,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v3-turbo",
+      "delta_wer": 0.7941176470588236,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "turbo",
+      "delta_wer": 0.7941176470588236,
+      "errors": {}
+    }
+  ],
+  "delta_energy_2axis": {
+    "E_S1": 1.6433956623087393,
+    "E_S2": 4.676143169404076,
+    "E_res": 15.794713020325707,
+    "frac_S1": 0.07431387113180811,
+    "frac_S2": 0.21145382627868659,
+    "frac_res": 0.7142323025895054,
+    "SDR_S2_vs_rest_db": -5.716115805860044,
+    "SDR_S1_vs_rest_db": -10.953938709953526,
+    "SDR_S2_vs_res_db": -5.286239399833757,
+    "SDR_S1_vs_res_db": -9.827696031317965,
+    "SI_SAR": -3.9782635266130733,
+    "coef_S1_ls": -0.8038961887359619,
+    "coef_S2_ls": 0.17999492585659027
+  },
+  "psychoacoustic": {
+    "pvr": 0.9199751631079478,
+    "me_db_mean": 14.301051479164496,
+    "me_excess_norm": 2.2644096672938336
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "folder": "00013_random_p105_00745__p107_00739",
+  "type": "experiment",
+  "nonintrusive": [
+    {
+      "file": "prediction.wav",
+      "distill_mos": 4.392162322998047,
+      "errors": {}
+    }
+  ],
+  "intrusive": [
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "pesq": 2.1110968589782715,
+      "estoi": 0.8450886509339576,
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "pesq": 1.1989554166793823,
+      "estoi": 0.42054226573649955,
+      "errors": {}
+    }
+  ],
+  "wer": [
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large",
+      "wer": 0.034482758620689655,
+      "hyp": "Oh that's so cute That cuddling is so awesome Almost dog and child are enjoying themselves Oh that's so cute I should take a picture of that That's adorable",
+      "ref": "Oh, that's so cute. That cuddling is so awesome. Both dog and child are enjoying themselves. Oh, that's so cute. I should take a picture of that. That's adorable.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v1",
+      "wer": 0.0,
+      "hyp": "Oh, that's so cute. That cuddling is so awesome. Both dog and child are enjoying themselves. Oh, that's so cute. I should take a picture of that. That's adorable.",
+      "ref": "Oh, that's so cute. That cuddling is so awesome. Both dog and child are enjoying themselves. Oh, that's so cute. I should take a picture of that. That's adorable.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v2",
+      "wer": 0.0,
+      "hyp": "Oh, that's so cute! That cuddling is so awesome! Both dog and child are enjoying themselves. Oh, that's so cute! I should take a picture of that. That's adorable!",
+      "ref": "Oh, that's so cute! That cuddling is so awesome! Both dog and child are enjoying themselves. Oh, that's so cute! I should take a picture of that. That's adorable!",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v3",
+      "wer": 0.034482758620689655,
+      "hyp": "Oh that's so cute That cuddling is so awesome Almost dog and child are enjoying themselves Oh that's so cute I should take a picture of that That's adorable",
+      "ref": "Oh, that's so cute. That cuddling is so awesome. Both dog and child are enjoying themselves. Oh, that's so cute. I should take a picture of that. That's adorable.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v3-turbo",
+      "wer": 0.0,
+      "hyp": "Oh, that's so cute. That cuddling is so awesome. Both dog and child are enjoying themselves. Oh, that's so cute. I should take a picture of that. That's adorable.",
+      "ref": "Oh, that's so cute! That cuddling is so awesome! Both dog and child are enjoying themselves. Oh, that's so cute! I should take a picture of that. That's adorable.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "turbo",
+      "wer": 0.0,
+      "hyp": "Oh, that's so cute. That cuddling is so awesome. Both dog and child are enjoying themselves. Oh, that's so cute. I should take a picture of that. That's adorable.",
+      "ref": "Oh, that's so cute! That cuddling is so awesome! Both dog and child are enjoying themselves. Oh, that's so cute! I should take a picture of that. That's adorable.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large",
+      "wer": 0.52,
+      "hyp": "I'm so upset about the state of the world. I hope it gets better soon. I think it will soon. I think it's going to be the same with them.",
+      "ref": "I'm so upset by the state of the world. I hope it gets better soon. I really miss her. Life isn't the same without her.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v1",
+      "wer": 0.36,
+      "hyp": "I'm so upset about the state of the world. I hope it gets better soon. I feel miserable. I feel the same way about them.",
+      "ref": "I'm so upset by the state of the world. I hope it gets better soon. I really miss her. Life isn't the same without her.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v2",
+      "wer": 1.16,
+      "hyp": "Oh, that's so cute! That's cuddling is so awesome! Oh, those dog and child are enjoying themselves. Oh, that's so cute. I should take a picture of them. That's adorable.",
+      "ref": "I'm so upset by the state of the world. I hope it gets better soon. I really miss her. Life isn't the same without her.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v3",
+      "wer": 0.52,
+      "hyp": "I'm so upset about the state of the world. I hope it gets better soon. I think it will soon. I think it's going to be the same with them.",
+      "ref": "I'm so upset by the state of the world. I hope it gets better soon. I really miss her. Life isn't the same without her.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v3-turbo",
+      "wer": 1.4,
+      "hyp": "I'm so upset by the stage number one. Oh, that's so cute! That cuddling is so awesome! I hope it gives better sleep. Those dog and child are enjoying them so... Oh, that's so cute! I should take a picture of them. That's adorable!",
+      "ref": "I'm so upset by the state of the world. I hope it gets better soon. I really miss her. Life isn't the same without her.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "turbo",
+      "wer": 1.4,
+      "hyp": "I'm so upset by the stage number one. Oh, that's so cute! That cuddling is so awesome! I hope it gives better sleep. Those dog and child are enjoying them so... Oh, that's so cute! I should take a picture of them. That's adorable!",
+      "ref": "I'm so upset by the state of the world. I hope it gets better soon. I really miss her. Life isn't the same without her.",
+      "errors": {}
+    }
+  ],
+  "delta_level": {
+    "dy_minus_y1_rms_dbfs": -3.231972992327023,
+    "ypl_minus_y1_rms_dbfs": 0.06358147550756144,
+    "ypl_minus_y1_lufs": -1.7976311804105904,
+    "dy_minus_y1_lufs": -4.3456498713204255,
+    "errors": {}
+  },
+  "delta_lsd": {
+    "lsd_Y1_vs_Y1plus": 9.873584747314453,
+    "lsd_Y1_vs_dy": 14.457069396972656
+  },
+  "delta_energy": {
+    "E_S1": 0.34366866946320396,
+    "E_N1": 0.019469833002494406,
+    "E_S2": 4.529988765717553,
+    "E_res": 3.8050920963297354,
+    "frac_S1": 0.039510232504057566,
+    "frac_N1": 0.002238369968217572,
+    "frac_S2": 0.5207949553674182,
+    "frac_res": 0.4374564421603067,
+    "SDR_S2_db": 0.3614538756627471,
+    "SDR_S1_db": -13.857831571375758,
+    "SDR_N1_db": -26.49094928334535,
+    "SDR_S2_vs_res_db": 0.7351542733095233,
+    "SDR_S1_vs_res_db": -10.46441756134046,
+    "SI_SAR": 1.0922133906819804,
+    "coef_S1_ls": -0.14214345812797546,
+    "coef_N1_ls": -0.12915532290935516,
+    "coef_S2_ls": 0.2596270740032196
+  },
+  "delta_intrusive": {
+    "delta_pesq": -0.46902894973754883,
+    "delta_estoi": -0.4007086268358453,
+    "errors": {}
+  },
+  "delta_wer": [
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large",
+      "delta_wer": 0.52,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v1",
+      "delta_wer": 0.36,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v2",
+      "delta_wer": 1.16,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v3",
+      "delta_wer": 0.52,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v3-turbo",
+      "delta_wer": 1.4,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "turbo",
+      "delta_wer": 1.4,
+      "errors": {}
+    }
+  ],
+  "delta_energy_2axis": {
+    "E_S1": 0.3458477258692251,
+    "E_S2": 4.529611587525414,
+    "E_res": 3.8245439529428946,
+    "frac_S1": 0.039752597244117775,
+    "frac_S2": 0.5206448145889326,
+    "frac_res": 0.4396025881669495,
+    "SDR_S2_vs_rest_db": 0.35884117650931835,
+    "SDR_S1_vs_rest_db": -13.830176325352685,
+    "SDR_S2_vs_res_db": 0.7348130667746379,
+    "SDR_S1_vs_res_db": -10.43694732035603,
+    "SI_SAR": 1.0543588017701584,
+    "coef_S1_ls": -0.14259493350982666,
+    "coef_S2_ls": 0.2596178650856018
+  },
+  "psychoacoustic": {
+    "pvr": 0.48390959672021416,
+    "me_db_mean": 5.60480635427666,
+    "me_excess_norm": 0.5033423872174084
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "folder": "00036_random_p107_00584__p103_00769",
+  "type": "experiment",
+  "nonintrusive": [
+    {
+      "file": "prediction.wav",
+      "distill_mos": 2.93735408782959,
+      "errors": {}
+    }
+  ],
+  "intrusive": [
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "pesq": 1.0743590593338013,
+      "estoi": 0.3893552111174492,
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "pesq": 1.7754769325256348,
+      "estoi": 0.6965181086196516,
+      "errors": {}
+    }
+  ],
+  "wer": [
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large",
+      "wer": 0.5,
+      "hyp": "Because rainbows can be considerably about the size of rocks, and the width of the color fan increases as the size of the rocks increases, the actual primary rank of the observe is",
+      "ref": "The difference in the rainbow depends considerably upon the size of the drops, and the width of the colored band increases as the size of the drops increases. The actual primary rainbow observed is said to be the primary rainbow.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v1",
+      "wer": 0.3783783783783784,
+      "hyp": "As rainbows, things considerably abrad by size and drops, and the width of the color band increases as the size of the top increases. The actual primary rank observed is set to be",
+      "ref": "The difference in the rainbow depends considerably upon the size of the drops, and the width of the colored band increases as the size of the drops increases. The actual primary rainbow observed is said to be",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v2",
+      "wer": 0.40540540540540543,
+      "hyp": "Check this out! Rainbow contains considerable amounts of size and drops, and the width of the colored fan increases as the size of the drops increases. The actual primary rain cloud observed is set to increase.",
+      "ref": "The difference in the rainbow depends considerably upon the size of the drops and the width of the colored band increases as the size of the drops increases. The actual primary rainbow observed is said to be...",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v3",
+      "wer": 0.5,
+      "hyp": "Because rainbows can be considerably about the size of rocks, and the width of the color fan increases as the size of the rocks increases, the actual primary rank of the observe is",
+      "ref": "The difference in the rainbow depends considerably upon the size of the drops, and the width of the colored band increases as the size of the drops increases. The actual primary rainbow observed is said to be the primary rainbow.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v3-turbo",
+      "wer": 0.6756756756756757,
+      "hyp": "Look at us, Rainbog brings considerable amount of size and drops at the width of the color fan. It increases as the size of the fives in pieces. Your actual primary rank on the surface is set to",
+      "ref": "The difference in the rainbow depends considerably upon the size of the drops, and the width of the colored band increases as the size of the drops increases. The actual primary rainbow observed is said to be...",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "turbo",
+      "wer": 0.6756756756756757,
+      "hyp": "Look at us, Rainbog brings considerable amount of size and drops at the width of the color fan. It increases as the size of the fives in pieces. Your actual primary rank on the surface is set to",
+      "ref": "The difference in the rainbow depends considerably upon the size of the drops, and the width of the colored band increases as the size of the drops increases. The actual primary rainbow observed is said to be...",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large",
+      "wer": 0.04878048780487805,
+      "hyp": "It might happen, he added with an involuntary smile. It is so, sir, was again his laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a dead cert for the gold cup?",
+      "ref": "It might happen, he added with an involuntary smile. It is salt, sir, was again his laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a dead search for the gold cup?",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v1",
+      "wer": 0.0975609756097561,
+      "hyp": "It might happen, added with an involuntary smile. It is also, was again his laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a dead sirk for the gold cup?",
+      "ref": "It might happen, he added with an involuntary smile. It is sold, sir, was again his laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a dead third for the gold cup?",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v2",
+      "wer": 0.14634146341463414,
+      "hyp": "It might happen, added with an involuntary smile, that a soul-serve was again his laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a dead serve for the gold cup?",
+      "ref": "It might happen, he added with an involuntary smile. It is so, sir, was again his laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a dead cert for the gold cup?",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v3",
+      "wer": 0.04878048780487805,
+      "hyp": "It might happen, he added with an involuntary smile. It is so, sir, was again his laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a dead cert for the gold cup?",
+      "ref": "It might happen, he added with an involuntary smile. It is salt, sir, was again his laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a dead search for the gold cup?",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v3-turbo",
+      "wer": 0.04878048780487805,
+      "hyp": "It might happen, he added with an involuntary smile. It is salt, sir, was again his laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a desert for the gold cup?",
+      "ref": "It might happen, he added with an involuntary smile. It is salt, sir, was again his laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a dead cert for the gold cup?",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "turbo",
+      "wer": 0.04878048780487805,
+      "hyp": "It might happen, he added with an involuntary smile. It is salt, sir, was again his laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a desert for the gold cup?",
+      "ref": "It might happen, he added with an involuntary smile. It is salt, sir, was again his laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a dead cert for the gold cup?",
+      "errors": {}
+    }
+  ],
+  "delta_level": {
+    "dy_minus_y1_rms_dbfs": -14.216518916706086,
+    "ypl_minus_y1_rms_dbfs": -1.4999984631553716,
+    "ypl_minus_y1_lufs": -1.5939781152714652,
+    "dy_minus_y1_lufs": -13.718221844895982,
+    "errors": {}
+  },
+  "delta_lsd": {
+    "lsd_Y1_vs_Y1plus": 7.648696422576904,
+    "lsd_Y1_vs_dy": 18.565776824951172
+  },
+  "delta_energy": {
+    "E_S1": 0.6521720886240469,
+    "E_N1": 0.003304642393322421,
+    "E_S2": 0.6564508080492483,
+    "E_res": 6.355803966523217,
+    "frac_S1": 0.08505411126466915,
+    "frac_N1": 0.00043098045242107285,
+    "frac_S2": 0.08561212759871556,
+    "frac_res": 0.8289027806841942,
+    "SDR_S2_db": -10.285951672440852,
+    "SDR_S1_db": -10.317000990332152,
+    "SDR_N1_db": -33.65355214505131,
+    "SDR_S2_vs_res_db": -9.861940552262586,
+    "SDR_S1_vs_res_db": -9.890340343562805,
+    "SI_SAR": -6.852606451338695,
+    "coef_S1_ls": -0.058570362627506256,
+    "coef_N1_ls": 0.016133835539221764,
+    "coef_S2_ls": 0.04588225856423378
+  },
+  "delta_intrusive": {
+    "delta_pesq": -0.3273962736129761,
+    "delta_estoi": -0.26345279772753305,
+    "errors": {}
+  },
+  "delta_wer": [
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large",
+      "delta_wer": 0.024390243902439025,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v1",
+      "delta_wer": 0.0975609756097561,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v2",
+      "delta_wer": 0.12195121951219512,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v3",
+      "delta_wer": 0.024390243902439025,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v3-turbo",
+      "delta_wer": 0.024390243902439025,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "turbo",
+      "delta_wer": 0.024390243902439025,
+      "errors": {}
+    }
+  ],
+  "delta_energy_2axis": {
+    "E_S1": 0.6523865461359487,
+    "E_S2": 0.6558344960222707,
+    "E_res": 6.359057903290795,
+    "frac_S1": 0.08508710205765747,
+    "frac_S2": 0.08553679873764701,
+    "frac_res": 0.8293760992046955,
+    "SDR_S2_vs_rest_db": -10.290132412914463,
+    "SDR_S1_vs_rest_db": -10.315160176110405,
+    "SDR_S2_vs_res_db": -9.865985232844471,
+    "SDR_S1_vs_res_db": -9.888877833230879,
+    "SI_SAR": -6.867116492435034,
+    "coef_S1_ls": -0.05858039855957031,
+    "coef_S2_ls": 0.04586092382669449
+  },
+  "psychoacoustic": {
+    "pvr": 0.20273959403905448,
+    "me_db_mean": 1.5234956596566132,
+    "me_excess_norm": 0.0690174284620368
+  }
+}

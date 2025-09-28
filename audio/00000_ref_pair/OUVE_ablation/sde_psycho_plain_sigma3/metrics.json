@@ -1,0 +1,216 @@
+{
+  "folder": "00000_ref_pair",
+  "type": "experiment",
+  "nonintrusive": [
+    {
+      "file": "prediction.wav",
+      "distill_mos": 3.025038480758667,
+      "errors": {}
+    }
+  ],
+  "intrusive": [
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "pesq": 1.1186597347259521,
+      "estoi": 0.5313960928574145,
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "pesq": 1.093474268913269,
+      "estoi": 0.12237088050718159,
+      "errors": {}
+    }
+  ],
+  "wer": [
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large",
+      "wer": 0.5681818181818182,
+      "hyp": "No one ever finds him. He looks for something beyond the grief. His friend says he's looking for a pot of gold. Without the seed, he can't explain the rainbow news.",
+      "ref": "People look, but no one ever finds it. When a man looks for something beyond his reach, his friends say he's looking for a pot of gold at the end of the rainbow. Throughout the centuries, people have explained the rainbow in various ways.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v1",
+      "wer": 0.4090909090909091,
+      "hyp": "People hope that no one ever finds him. But when he looks for something beyond the grief, his friends say he's looking for a pot of gold to be enjoyed. Throughout the summer, people have explained the rainbow, yes, please.",
+      "ref": "People look but no one ever finds it. When a man looks for something beyond his reach, his friends say he's looking for a pot of gold at the end of the rainbow. Throughout the centuries people have explained the rainbow in various ways.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v2",
+      "wer": 0.6136363636363636,
+      "hyp": "No one ever finds. He looks for something beyond the grief. His friend's son is looking for a pot of gold. Without the sun, he cannot explain the rainbow he is waiting for.",
+      "ref": "People look, but no one ever finds it. When a man looks for something beyond his reach, his friends say he's looking for a pot of gold at the end of the rainbow. Throughout the centuries, people have explained the rainbow in various ways.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v3",
+      "wer": 0.5681818181818182,
+      "hyp": "No one ever finds him. He looks for something beyond the grief. His friend says he's looking for a pot of gold. Without the seed, he can't explain the rainbow news.",
+      "ref": "People look, but no one ever finds it. When a man looks for something beyond his reach, his friends say he's looking for a pot of gold at the end of the rainbow. Throughout the centuries, people have explained the rainbow in various ways.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v3-turbo",
+      "wer": 0.5681818181818182,
+      "hyp": "No one ever finds. To look for something beyond the grief, his friend says he's looking for a pot of gold. Without the sight of his friend, he's going to flame the rainbow. He is.",
+      "ref": "People look, but no one ever finds it. When a man looks for something beyond his reach, his friends say he's looking for a pot of gold at the end of the rainbow. Throughout the centuries, people have explained the rainbow in various ways.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "turbo",
+      "wer": 0.5681818181818182,
+      "hyp": "No one ever finds. To look for something beyond the grief, his friend says he's looking for a pot of gold. Without the sight of his friend, he's going to flame the rainbow. He is.",
+      "ref": "People look, but no one ever finds it. When a man looks for something beyond his reach, his friends say he's looking for a pot of gold at the end of the rainbow. Throughout the centuries, people have explained the rainbow in various ways.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large",
+      "wer": 1.0,
+      "hyp": "No one ever finds him. He's looking for something beyond his reach. His friends tell him he's looking for a hard gold. He's looking for something. He's looking for something. He's looking for something.",
+      "ref": "It might happen again, he added with an involuntary smile. It is sold, sir, was in the laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a dead soul?",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v1",
+      "wer": 1.0,
+      "hyp": "I'm going to go get some water. No! Stop! Stop! Stop! Stop! Stop! Stop! Stop! Stop! Stop! Stop! Stop! Stop! Stop! Stop! Stop! Stop! Stop! Stop! Stop! Stop! Stop! Stop! Stop! Stop! Stop! Stop!",
+      "ref": "It might happen again, he added with an involuntary smile. It is sold, sir, was in the laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a dead soul?",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v2",
+      "wer": 0.972972972972973,
+      "hyp": "I'm going to go ahead and get this.",
+      "ref": "It might happen again, he added with an involuntary smile. It is sold, sir, was again the laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a dead...",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v3",
+      "wer": 1.0,
+      "hyp": "No one ever finds him. He's looking for something beyond his reach. His friends tell him he's looking for a hard gold. He's looking for something. He's looking for something. He's looking for something.",
+      "ref": "It might happen again, he added with an involuntary smile. It is sold, sir, was in the laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a dead soul?",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v3-turbo",
+      "wer": 0.9736842105263158,
+      "hyp": "No one ever finds it. It's for something beyond his reach. His friends come to me looking for a hard goal. It's a great way to play the rainbow.",
+      "ref": "It might happen again, he added with an involuntary smile. It is sold, sir, was in the laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a dead suit?",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "turbo",
+      "wer": 0.9736842105263158,
+      "hyp": "No one ever finds it. It's for something beyond his reach. His friends come to me looking for a hard goal. It's a great way to play the rainbow.",
+      "ref": "It might happen again, he added with an involuntary smile. It is sold, sir, was in the laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a dead suit?",
+      "errors": {}
+    }
+  ],
+  "delta_level": {
+    "dy_minus_y1_rms_dbfs": 16.644980456104605,
+    "ypl_minus_y1_rms_dbfs": 16.84171843452911,
+    "ypl_minus_y1_lufs": 19.45375293804277,
+    "dy_minus_y1_lufs": 19.18211444806108,
+    "errors": {}
+  },
+  "delta_lsd": {
+    "lsd_Y1_vs_Y1plus": 20.907865524291992,
+    "lsd_Y1_vs_dy": 20.38246726989746
+  },
+  "delta_energy": {
+    "E_S1": 49.560413360596705,
+    "E_N1": 0.03213678300480707,
+    "E_S2": 232.00587463379006,
+    "E_res": 5775.043945312501,
+    "frac_S1": 0.008182819841789856,
+    "frac_N1": 5.306039392966518e-06,
+    "frac_S2": 0.038306021795100086,
+    "frac_res": 0.9535058523237171,
+    "SDR_S2_db": -13.997698452216875,
+    "SDR_S1_db": -20.835286372504378,
+    "SDR_N1_db": -52.75227225673619,
+    "SDR_S2_vs_res_db": -13.960587282657551,
+    "SDR_S1_vs_res_db": -20.664227901213525,
+    "SI_SAR": -13.11925072255655,
+    "coef_S1_ls": -0.7366623282432556,
+    "coef_N1_ls": 0.028326284140348434,
+    "coef_S2_ls": 1.6998621225357056
+  },
+  "delta_intrusive": {
+    "delta_pesq": 0.17707645893096924,
+    "delta_estoi": -0.6074289954893977,
+    "errors": {}
+  },
+  "delta_wer": [
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large",
+      "delta_wer": 0.9736842105263158,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v1",
+      "delta_wer": 0.9736842105263158,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v2",
+      "delta_wer": 0.972972972972973,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v3",
+      "delta_wer": 0.9736842105263158,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v3-turbo",
+      "delta_wer": 0.9210526315789473,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "turbo",
+      "delta_wer": 0.9210526315789473,
+      "errors": {}
+    }
+  ],
+  "delta_energy_2axis": {
+    "E_S1": 49.565662384034205,
+    "E_S2": 232.01058959961037,
+    "E_res": 5775.018554687501,
+    "frac_S1": 0.008183750765271471,
+    "frac_S2": 0.03830710110309148,
+    "frac_res": 0.9535091481316371,
+    "SDR_S2_vs_rest_db": -13.997571213324076,
+    "SDR_S1_vs_rest_db": -20.834788246538235,
+    "SDR_S2_vs_res_db": -13.96045576186453,
+    "SDR_S1_vs_res_db": -20.66372469556959,
+    "SI_SAR": -13.11957360110592,
+    "coef_S1_ls": -0.7367040514945984,
+    "coef_S2_ls": 1.6998847723007202
+  },
+  "psychoacoustic": {
+    "pvr": 0.9076704545454546,
+    "me_db_mean": 18.344325296981232,
+    "me_excess_norm": 4.251013370156226
+  }
+}

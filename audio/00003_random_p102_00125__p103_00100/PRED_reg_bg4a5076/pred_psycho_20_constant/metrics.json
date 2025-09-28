@@ -1,0 +1,216 @@
+{
+  "folder": "00003_random_p102_00125__p103_00100",
+  "type": "experiment",
+  "nonintrusive": [
+    {
+      "file": "prediction.wav",
+      "distill_mos": 1.856035590171814,
+      "errors": {}
+    }
+  ],
+  "intrusive": [
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "pesq": 1.1725351810455322,
+      "estoi": 0.5089297596431416,
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "pesq": 1.1858659982681274,
+      "estoi": 0.5354091346666985,
+      "errors": {}
+    }
+  ],
+  "wer": [
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large",
+      "wer": 0.3333333333333333,
+      "hyp": "All these things are the worst thing I've ever had in a day. My foot hurts so badly right now. I'm in terrible pain from that medication.",
+      "ref": "Oh, this headache is the worst one I've ever had. My foot hurts so badly right now. I'm in terrible pain from that medication.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v1",
+      "wer": 0.16666666666666666,
+      "hyp": "Well, this ain't the worst thing I've ever had. My foot hurts so badly right now. I'm in terrible pain from that medication.",
+      "ref": "Oh, this headache is the worst one I've ever had. My foot hurts so badly right now. I'm in terrible pain from that medication.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v2",
+      "wer": 0.5,
+      "hyp": "A lot of the things have been worse than I've ever had the other day. My foot hurts so badly right now. I'm in terrible pain from that medication.",
+      "ref": "Oh, this headache is the worst one I've ever had. My foot hurts so badly right now. I'm in terrible pain from that medication.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v3",
+      "wer": 0.3333333333333333,
+      "hyp": "All these things are the worst thing I've ever had in a day. My foot hurts so badly right now. I'm in terrible pain from that medication.",
+      "ref": "Oh, this headache is the worst one I've ever had. My foot hurts so badly right now. I'm in terrible pain from that medication.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v3-turbo",
+      "wer": 0.375,
+      "hyp": "Well, this is the worst that I've ever had in a day. My foot hurts so badly right now. I'm a terrible thing for that medication.",
+      "ref": "Oh, this headache is the worst one I've ever had. My foot hurts so badly right now. I'm in terrible pain from that medication.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "turbo",
+      "wer": 0.375,
+      "hyp": "Well, this is the worst that I've ever had in a day. My foot hurts so badly right now. I'm a terrible thing for that medication.",
+      "ref": "Oh, this headache is the worst one I've ever had. My foot hurts so badly right now. I'm in terrible pain from that medication.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large",
+      "wer": 0.78125,
+      "hyp": "I've only heard it last night. We have our bad news. We have one more issue. We'll go our way tonight. We can see a fellow with waxed up mustache. And his whole face is contended.",
+      "ref": "I only heard it last night. We had now got into the month of March. But go thy ways, I had forgot. Conceited fellow with his waxed-up mustache. Anne's unhappiness continued.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v1",
+      "wer": 0.75,
+      "hyp": "I only heard it last night. We have now got you locked in. I don't know what works. But go your way, you black bear. Conceited fellow whizz-waxed up my stash. And tell you what happens next.",
+      "ref": "I only heard it last night. We had now got into the month of March. But go thy ways, I had forgot. Conceited fellow with his waxed up mustache. Anne's unhappiness continues.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v2",
+      "wer": 0.90625,
+      "hyp": "I only heard it last night, but I'm now back in contact with it. But this is the only way to make it work. You can see it fell over this waxed up mustache, and its hallucinations continue.",
+      "ref": "I only heard it last night. We had now got into the month of March, but go thy ways I had forgot. Conceited fellow with his waxed-on mustache. Anne's unhappiness continued.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v3",
+      "wer": 0.78125,
+      "hyp": "I've only heard it last night. We have our bad news. We have one more issue. We'll go our way tonight. We can see a fellow with waxed up mustache. And his whole face is contended.",
+      "ref": "I only heard it last night. We had now got into the month of March. But go thy ways, I had forgot. Conceited fellow with his waxed-up mustache. Anne's unhappiness continued.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v3-turbo",
+      "wer": 0.6875,
+      "hyp": "I've only heard it last night. We live our back in the morning. But go away tonight. I'm starving. And the motion is continued.",
+      "ref": "I only heard it last night. We had now got into the month of March. But go thy ways, I had forgot. Conceited fellow with his waxed-up mustache. Anne's unhappiness continued.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "turbo",
+      "wer": 0.6875,
+      "hyp": "I've only heard it last night. We live our back in the morning. But go away tonight. I'm starving. And the motion is continued.",
+      "ref": "I only heard it last night. We had now got into the month of March. But go thy ways, I had forgot. Conceited fellow with his waxed-up mustache. Anne's unhappiness continued.",
+      "errors": {}
+    }
+  ],
+  "delta_level": {
+    "dy_minus_y1_rms_dbfs": -1.3851674135011223,
+    "ypl_minus_y1_rms_dbfs": -0.5806755922209206,
+    "ypl_minus_y1_lufs": -1.2498893035459062,
+    "dy_minus_y1_lufs": -0.44614083231798674,
+    "errors": {}
+  },
+  "delta_lsd": {
+    "lsd_Y1_vs_Y1plus": 10.686866760253906,
+    "lsd_Y1_vs_dy": 12.07640266418457
+  },
+  "delta_energy": {
+    "E_S1": 0.21329694986443384,
+    "E_N1": 0.006346368231879307,
+    "E_S2": 0.22277726233105524,
+    "E_res": 1.5055532455454337,
+    "frac_S1": 0.10949682537850071,
+    "frac_N1": 0.0032579330108349802,
+    "frac_S2": 0.11436358094791244,
+    "frac_res": 0.7728816606627519,
+    "SDR_S2_db": -8.889677217415912,
+    "SDR_S1_db": -9.102339441130528,
+    "SDR_N1_db": -24.85640637662613,
+    "SDR_S2_vs_res_db": -8.316520934151889,
+    "SDR_S1_vs_res_db": -8.505383109877302,
+    "SI_SAR": -5.318607982363417,
+    "coef_S1_ls": -0.289617121219635,
+    "coef_N1_ls": -0.2119453400373459,
+    "coef_S2_ls": 0.039287056773900986
+  },
+  "delta_intrusive": {
+    "delta_pesq": -0.41938459873199463,
+    "delta_estoi": -0.3314330253287834,
+    "errors": {}
+  },
+  "delta_wer": [
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large",
+      "delta_wer": 0.78125,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v1",
+      "delta_wer": 0.71875,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v2",
+      "delta_wer": 0.8125,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v3",
+      "delta_wer": 0.78125,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v3-turbo",
+      "delta_wer": 0.5588235294117647,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "turbo",
+      "delta_wer": 0.5588235294117647,
+      "errors": {}
+    }
+  ],
+  "delta_energy_2axis": {
+    "E_S1": 0.21331393718819483,
+    "E_S2": 0.2227187305698858,
+    "E_res": 1.5118958950052725,
+    "frac_S1": 0.10950809042277469,
+    "frac_S2": 0.1143361901598355,
+    "frac_res": 0.7761557194173898,
+    "SDR_S2_vs_rest_db": -8.89085181992323,
+    "SDR_S1_vs_rest_db": -9.10183772204503,
+    "SDR_S2_vs_res_db": -8.317651452817309,
+    "SDR_S1_vs_res_db": -8.505026562084627,
+    "SI_SAR": -5.400028598507255,
+    "coef_S1_ls": -0.2896265685558319,
+    "coef_S2_ls": 0.03928208723664284
+  },
+  "psychoacoustic": {
+    "pvr": 0.7747673858244365,
+    "me_db_mean": 9.308239403665056,
+    "me_excess_norm": 0.7545593424869077
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "folder": "00057_random_p107_00575__p102_00622",
+  "type": "experiment",
+  "nonintrusive": [
+    {
+      "file": "prediction.wav",
+      "distill_mos": 2.389364004135132,
+      "errors": {}
+    }
+  ],
+  "intrusive": [
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "pesq": 1.2762484550476074,
+      "estoi": 0.616909968217402,
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "pesq": 1.3792181015014648,
+      "estoi": 0.5380587641380702,
+      "errors": {}
+    }
+  ],
+  "wer": [
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large",
+      "wer": 0.0,
+      "hyp": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "ref": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v1",
+      "wer": 0.0,
+      "hyp": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "ref": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v2",
+      "wer": 0.0,
+      "hyp": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "ref": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v3",
+      "wer": 0.0,
+      "hyp": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "ref": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v3-turbo",
+      "wer": 0.0,
+      "hyp": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "ref": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "turbo",
+      "wer": 0.0,
+      "hyp": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "ref": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large",
+      "wer": 3.8461538461538463,
+      "hyp": "Oh, sorry. Will BreakBornSpring. Very glad to see you. This question is where Paul is mentally part. Before going to do it forever, I felt him all out. I told you, Paul, that I was going to do it forever. I told you, Paul, that I was going to do it forever. I told you, Paul, that I was going to do it forever. I told you, Paul, that I was going to do it forever. I told you, Paul, that I was going to do it forever. I told you, Paul, that I was going to do it forever. I told you, Paul, that I was going to do it forever.",
+      "ref": "Oh, sorry, we'll break bones. I'm very glad to see you. This question observed all his mental powers. Before going away forever, I'll tell him all.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v1",
+      "wer": 0.4838709677419355,
+      "hyp": "Oh, sorry. World Breakdowns. I'm very glad to see you. This question of where all this mental power is before going away forever, I felt in awe. I told you.",
+      "ref": "Oh, sorry, will break bones. I am very glad to see you. This question observed all his mental powers before going away forever I'll tell him all out. I told you",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v2",
+      "wer": 0.6666666666666666,
+      "hyp": "Oh, sorry. World Break Boys, I'm very glad to see you. This question of your fault is meant on pause. Before you were released, I thought in all of my thought you...",
+      "ref": "Oh, sorry, we'll break bones. I am very glad to see you. This question absorbs all his mental powers. Before going away forever, I'll tell him all. I told you...",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v3",
+      "wer": 3.8461538461538463,
+      "hyp": "Oh, sorry. Will BreakBornSpring. Very glad to see you. This question is where Paul is mentally part. Before going to do it forever, I felt him all out. I told you, Paul, that I was going to do it forever. I told you, Paul, that I was going to do it forever. I told you, Paul, that I was going to do it forever. I told you, Paul, that I was going to do it forever. I told you, Paul, that I was going to do it forever. I told you, Paul, that I was going to do it forever. I told you, Paul, that I was going to do it forever.",
+      "ref": "Oh, sorry, we'll break bones. I'm very glad to see you. This question observed all his mental powers. Before going away forever, I'll tell him all.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v3-turbo",
+      "wer": 0.5666666666666667,
+      "hyp": "Oh, sorry. You'll break down. I'm very glad to see you. This question at work called his mental part. Before you're in the day forever, I felt in awe of- I told you-",
+      "ref": "Oh, sorry, Will Break Bones. I am very glad to see you. This question observed all his mental powers. Before going away forever, I'll tell him all. I told you.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "turbo",
+      "wer": 0.5666666666666667,
+      "hyp": "Oh, sorry. You'll break down. I'm very glad to see you. This question at work called his mental part. Before you're in the day forever, I felt in awe of- I told you-",
+      "ref": "Oh, sorry, Will Break Bones. I am very glad to see you. This question observed all his mental powers. Before going away forever, I'll tell him all. I told you.",
+      "errors": {}
+    }
+  ],
+  "delta_level": {
+    "dy_minus_y1_rms_dbfs": -12.710399231091557,
+    "ypl_minus_y1_rms_dbfs": -5.086515447881119,
+    "ypl_minus_y1_lufs": -5.0195365999589185,
+    "dy_minus_y1_lufs": -11.938185990305783,
+    "errors": {}
+  },
+  "delta_lsd": {
+    "lsd_Y1_vs_Y1plus": 8.545111656188965,
+    "lsd_Y1_vs_dy": 13.051188468933105
+  },
+  "delta_energy": {
+    "E_S1": 1.868207335473107,
+    "E_N1": 0.008279905655489994,
+    "E_S2": 0.6309595704088674,
+    "E_res": 2.133124351502465,
+    "frac_S1": 0.40258133532194085,
+    "frac_N1": 0.0017842427935241536,
+    "frac_S2": 0.1359659292446968,
+    "frac_res": 0.4596684926398381,
+    "SDR_S2_db": -8.03100772825547,
+    "SDR_S1_db": -1.7142515075802456,
+    "SDR_N1_db": -27.477704697471484,
+    "SDR_S2_vs_res_db": -5.306971295998986,
+    "SDR_S1_vs_res_db": -0.5927358873276333,
+    "SI_SAR": 0.7021555585731163,
+    "coef_S1_ls": -0.14897474646568298,
+    "coef_N1_ls": -0.06024053320288658,
+    "coef_S2_ls": 0.47606682777404785
+  },
+  "delta_intrusive": {
+    "delta_pesq": -0.44289183616638184,
+    "delta_estoi": -0.3756801377222491,
+    "errors": {}
+  },
+  "delta_wer": [
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large",
+      "delta_wer": 3.033333333333333,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v1",
+      "delta_wer": 0.41935483870967744,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v2",
+      "delta_wer": 0.5806451612903225,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v3",
+      "delta_wer": 3.033333333333333,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v3-turbo",
+      "delta_wer": 0.5,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "turbo",
+      "delta_wer": 0.5,
+      "errors": {}
+    }
+  ],
+  "delta_energy_2axis": {
+    "E_S1": 1.8689157962809073,
+    "E_S2": 0.6312359571466909,
+    "E_res": 2.141399621964501,
+    "frac_S1": 0.4026489518546003,
+    "frac_S2": 0.1359967618786438,
+    "frac_res": 0.4613542862667559,
+    "SDR_S2_vs_rest_db": -8.029868023169366,
+    "SDR_S1_vs_rest_db": -1.7130305715964842,
+    "SDR_S2_vs_res_db": -5.3050599201148945,
+    "SDR_S1_vs_res_db": -0.5910798692313306,
+    "SI_SAR": 0.672686484720221,
+    "coef_S1_ls": -0.1490030735731125,
+    "coef_S2_ls": 0.4761747419834137
+  },
+  "psychoacoustic": {
+    "pvr": 0.48354279891304347,
+    "me_db_mean": 4.2882872884101015,
+    "me_excess_norm": 0.16766340568343352
+  }
+}

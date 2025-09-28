@@ -1,0 +1,216 @@
+{
+  "folder": "00057_random_p107_00575__p102_00622",
+  "type": "experiment",
+  "nonintrusive": [
+    {
+      "file": "prediction.wav",
+      "distill_mos": 2.7898037433624268,
+      "errors": {}
+    }
+  ],
+  "intrusive": [
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "pesq": 1.9175209999084473,
+      "estoi": 0.7701334671093873,
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "pesq": 1.705261468887329,
+      "estoi": 0.5923476411288275,
+      "errors": {}
+    }
+  ],
+  "wer": [
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large",
+      "wer": 0.0,
+      "hyp": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "ref": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v1",
+      "wer": 0.0,
+      "hyp": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "ref": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v2",
+      "wer": 0.0,
+      "hyp": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "ref": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v3",
+      "wer": 0.0,
+      "hyp": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "ref": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v3-turbo",
+      "wer": 0.0,
+      "hyp": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "ref": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "turbo",
+      "wer": 0.0,
+      "hyp": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "ref": "When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large",
+      "wer": 3.6923076923076925,
+      "hyp": "Oh, sorry. Will break bones. I am very glad to see you. This question at work called his mental powers. Before going away forever, I'll tell him all. I'll tell you all the secrets of the world. I'll tell you all the secrets of the world. I'll tell you all the secrets of the world. I'll tell you all the secrets of the world. I'll tell you all the secrets of the world. I'll tell you all the secrets of the world. I'll tell you all the secrets of the world. I'll tell you all the secrets of the world. I'll tell you all the secrets of the world. I'll tell you all the secrets of the world.",
+      "ref": "Oh, sorry, we'll break bones. I'm very glad to see you. This question observed all his mental powers. Before going away forever, I'll tell him all.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v1",
+      "wer": 0.1935483870967742,
+      "hyp": "Oh sir, it will break bones. I am very glad to see you. This question is worth all his mental powers. Before going away forever, I felt him all out. I told you...",
+      "ref": "Oh, sorry, will break bones. I am very glad to see you. This question observed all his mental powers before going away forever I'll tell him all out. I told you",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v2",
+      "wer": 0.23333333333333334,
+      "hyp": "Oh sorry, well great boys, I am very glad to see you. This question is worth all these mental powers. Without going away forever, I'll tell him all. I told you.",
+      "ref": "Oh, sorry, we'll break bones. I am very glad to see you. This question absorbs all his mental powers. Before going away forever, I'll tell him all. I told you...",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v3",
+      "wer": 3.6923076923076925,
+      "hyp": "Oh, sorry. Will break bones. I am very glad to see you. This question at work called his mental powers. Before going away forever, I'll tell him all. I'll tell you all the secrets of the world. I'll tell you all the secrets of the world. I'll tell you all the secrets of the world. I'll tell you all the secrets of the world. I'll tell you all the secrets of the world. I'll tell you all the secrets of the world. I'll tell you all the secrets of the world. I'll tell you all the secrets of the world. I'll tell you all the secrets of the world. I'll tell you all the secrets of the world.",
+      "ref": "Oh, sorry, we'll break bones. I'm very glad to see you. This question observed all his mental powers. Before going away forever, I'll tell him all.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v3-turbo",
+      "wer": 0.3333333333333333,
+      "hyp": "Oh, sorry, you'll break bones. I'm very glad to see you. This flesh not worth all his mental powers. With her going away forever, I'll tell him all. I'll tell you",
+      "ref": "Oh, sorry, Will Break Bones. I am very glad to see you. This question observed all his mental powers. Before going away forever, I'll tell him all. I told you.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "turbo",
+      "wer": 0.3333333333333333,
+      "hyp": "Oh, sorry, you'll break bones. I'm very glad to see you. This flesh not worth all his mental powers. With her going away forever, I'll tell him all. I'll tell you",
+      "ref": "Oh, sorry, Will Break Bones. I am very glad to see you. This question observed all his mental powers. Before going away forever, I'll tell him all. I told you.",
+      "errors": {}
+    }
+  ],
+  "delta_level": {
+    "dy_minus_y1_rms_dbfs": -13.851271325608096,
+    "ypl_minus_y1_rms_dbfs": -1.279866564519267,
+    "ypl_minus_y1_lufs": -1.252267949299572,
+    "dy_minus_y1_lufs": -11.988527214138408,
+    "errors": {}
+  },
+  "delta_lsd": {
+    "lsd_Y1_vs_Y1plus": 8.903666496276855,
+    "lsd_Y1_vs_dy": 14.28054141998291
+  },
+  "delta_energy": {
+    "E_S1": 0.14493748545746668,
+    "E_N1": 0.01287581492315395,
+    "E_S2": 1.4518930912027823,
+    "E_res": 1.9565646648416983,
+    "frac_S1": 0.04064118603557711,
+    "frac_N1": 0.0036104420329903116,
+    "frac_S2": 0.40711798633113094,
+    "frac_res": 0.5486303856003016,
+    "SDR_S2_db": -1.6324798551970652,
+    "SDR_S1_db": -13.730146964054054,
+    "SDR_N1_db": -24.408687909137818,
+    "SDR_S2_vs_res_db": -1.3240822146747586,
+    "SDR_S1_vs_res_db": -11.3316213773223,
+    "SI_SAR": -0.8474753750147762,
+    "coef_S1_ls": -0.04149449244141579,
+    "coef_N1_ls": -0.07512136548757553,
+    "coef_S2_ls": 0.7221617698669434
+  },
+  "delta_intrusive": {
+    "delta_pesq": -0.3595302104949951,
+    "delta_estoi": -0.27509101668487534,
+    "errors": {}
+  },
+  "delta_wer": [
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large",
+      "delta_wer": 2.9,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v1",
+      "delta_wer": 0.12903225806451613,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v2",
+      "delta_wer": 0.16129032258064516,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v3",
+      "delta_wer": 2.9,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v3-turbo",
+      "delta_wer": 0.3,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "turbo",
+      "delta_wer": 0.3,
+      "errors": {}
+    }
+  ],
+  "delta_energy_2axis": {
+    "E_S1": 0.14518344402413233,
+    "E_S2": 1.4524465799341666,
+    "E_res": 1.9694380760202872,
+    "frac_S1": 0.040701057550598455,
+    "frac_S2": 0.4071821841424575,
+    "frac_res": 0.5521167583069441,
+    "SDR_S2_vs_rest_db": -1.6313247933409822,
+    "SDR_S1_vs_rest_db": -13.72348271889578,
+    "SDR_S2_vs_res_db": -1.3224216179260657,
+    "SDR_S1_vs_res_db": -11.324252356018183,
+    "SI_SAR": -0.9086611651932576,
+    "coef_S1_ls": -0.0415298193693161,
+    "coef_S2_ls": 0.7222963571548462
+  },
+  "psychoacoustic": {
+    "pvr": 0.4994565217391304,
+    "me_db_mean": 5.140593075434134,
+    "me_excess_norm": 0.1973112663307364
+  }
+}

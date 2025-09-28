@@ -1,0 +1,198 @@
+{
+  "folder": "00000_ref_pair",
+  "type": "experiment",
+  "nonintrusive": [
+    {
+      "file": "prediction.wav",
+      "distill_mos": 3.2840147018432617,
+      "errors": {}
+    }
+  ],
+  "intrusive": [
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "pesq": 1.2688592672348022,
+      "estoi": 0.6909947608484398,
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "pesq": 1.0469226837158203,
+      "estoi": 0.1370594529516984,
+      "errors": {}
+    }
+  ],
+  "wer": [
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large",
+      "wer": 0.09090909090909091,
+      "hyp": "People look, but no one ever finds them. When a man looks for something beyond his reach, his friends say he's looking for a pot of gold at the end of the rainbow. Throughout the centuries, people have claimed the rainbow for various reasons.",
+      "ref": "People look, but no one ever finds it. When a man looks for something beyond his reach, his friends say he's looking for a pot of gold at the end of the rainbow. Throughout the centuries, people have explained the rainbow in various ways.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v1",
+      "wer": 0.11363636363636363,
+      "hyp": "People look, but no one ever finds them. When a man looks for something beyond his reach, his friends say he's looking for a flood of gold at the end of the rainbow. Throughout the centuries, people have blamed the rainbow for various things.",
+      "ref": "People look but no one ever finds it. When a man looks for something beyond his reach, his friends say he's looking for a pot of gold at the end of the rainbow. Throughout the centuries people have explained the rainbow in various ways.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v2",
+      "wer": 0.09090909090909091,
+      "hyp": "People look, but no one ever finds them. When a man looks for something beyond his reach, his friends say he's looking for a pot of gold at the end of the rainbow. Throughout the centuries, people have blamed the rainbow for various reasons.",
+      "ref": "People look, but no one ever finds it. When a man looks for something beyond his reach, his friends say he's looking for a pot of gold at the end of the rainbow. Throughout the centuries, people have explained the rainbow in various ways.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v3",
+      "wer": 0.09090909090909091,
+      "hyp": "People look, but no one ever finds them. When a man looks for something beyond his reach, his friends say he's looking for a pot of gold at the end of the rainbow. Throughout the centuries, people have claimed the rainbow for various reasons.",
+      "ref": "People look, but no one ever finds it. When a man looks for something beyond his reach, his friends say he's looking for a pot of gold at the end of the rainbow. Throughout the centuries, people have explained the rainbow in various ways.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "large-v3-turbo",
+      "wer": 0.1590909090909091,
+      "hyp": "People look, but no one ever finds it. When a man looks for something beyond his reach, his friends say he's looking for a flood of gold at the end of the rain. Throughout the centuries, people have blamed the rain being for various waves.",
+      "ref": "People look, but no one ever finds it. When a man looks for something beyond his reach, his friends say he's looking for a pot of gold at the end of the rainbow. Throughout the centuries, people have explained the rainbow in various ways.",
+      "errors": {}
+    },
+    {
+      "pair": "prediction.wav vs tgt_clean.wav",
+      "model": "turbo",
+      "wer": 0.1590909090909091,
+      "hyp": "People look, but no one ever finds it. When a man looks for something beyond his reach, his friends say he's looking for a flood of gold at the end of the rain. Throughout the centuries, people have blamed the rain being for various waves.",
+      "ref": "People look, but no one ever finds it. When a man looks for something beyond his reach, his friends say he's looking for a pot of gold at the end of the rainbow. Throughout the centuries, people have explained the rainbow in various ways.",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large",
+      "wer": 1.1578947368421053,
+      "hyp": "People looked, but no one ever found him. When a man looked for something on his roof, his friends said he was looking for a pot of gold at the end of the rainbow. Throughout the century, people have laid the rainbow on various trees.",
+      "ref": "It might happen again, he added with an involuntary smile. It is sold, sir, was in the laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a dead soul?",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v1",
+      "wer": 1.2105263157894737,
+      "hyp": "People look like no one ever comes to see him. But he is the person who will want his reach. His friends say he is looking for a gold at the end of the rainbow. Throughout the century, people have claimed the rainbow is the various colors.",
+      "ref": "It might happen again, he added with an involuntary smile. It is sold, sir, was in the laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a dead soul?",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v2",
+      "wer": 1.1081081081081081,
+      "hyp": "People looked but no one ever found them. When the Santa Clause was stuck in the mud his friends came looking for a purple and they found the rainbow. Throughout the century people have been laying the rainbow in various ways.",
+      "ref": "It might happen again, he added with an involuntary smile. It is sold, sir, was again the laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a dead...",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v3",
+      "wer": 1.1578947368421053,
+      "hyp": "People looked, but no one ever found him. When a man looked for something on his roof, his friends said he was looking for a pot of gold at the end of the rainbow. Throughout the century, people have laid the rainbow on various trees.",
+      "ref": "It might happen again, he added with an involuntary smile. It is sold, sir, was in the laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a dead soul?",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "large-v3-turbo",
+      "wer": 1.131578947368421,
+      "hyp": "People looked, but no one ever found it. But Sam looked for something and won his reach. His friends say he was looking for a pearl gold at the end of the rainbow. Throughout the century, he explained the rainbow in various ways.",
+      "ref": "It might happen again, he added with an involuntary smile. It is sold, sir, was in the laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a dead suit?",
+      "errors": {}
+    },
+    {
+      "pair": "y_plus_dy.wav vs src_noisy.wav",
+      "model": "turbo",
+      "wer": 1.131578947368421,
+      "hyp": "People looked, but no one ever found it. But Sam looked for something and won his reach. His friends say he was looking for a pearl gold at the end of the rainbow. Throughout the century, he explained the rainbow in various ways.",
+      "ref": "It might happen again, he added with an involuntary smile. It is sold, sir, was in the laconic reply. And you must have some water, my dear fellow. What is that flying about? Who wants a dead suit?",
+      "errors": {}
+    }
+  ],
+  "delta_level": {
+    "dy_minus_y1_rms_dbfs": 11.968965055000666,
+    "ypl_minus_y1_rms_dbfs": 12.033435646905595,
+    "ypl_minus_y1_lufs": 15.078338943950971,
+    "errors": {}
+  },
+  "delta_lsd": {
+    "lsd_Y1_vs_Y1plus": 17.094799041748047,
+    "lsd_Y1_vs_dy": 16.440900802612305
+  },
+  "delta_energy": {
+    "E_S1": 65.06086730957131,
+    "E_N1": 1.3018027544031607,
+    "E_S2": 188.89244079589943,
+    "E_res": 1809.3919677734384,
+    "frac_S1": 0.031511858846422394,
+    "frac_N1": 0.0006305207160464855,
+    "frac_S2": 0.09148897298270282,
+    "frac_res": 0.8763686474548282,
+    "SDR_S2_db": -9.969614504961614,
+    "SDR_S1_db": -14.87620284846587,
+    "SDR_N1_db": -32.00026721880387,
+    "SI_SAR": -8.505582115394006,
+    "coef_S1_ls": -0.8440358638763428,
+    "coef_N1_ls": -0.18028557300567627,
+    "coef_S2_ls": 1.533809781074524
+  },
+  "delta_intrusive": {
+    "delta_pesq": 0.23620057106018066,
+    "delta_estoi": -0.6090816540368191,
+    "errors": {}
+  },
+  "delta_wer": [
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large",
+      "delta_wer": 1.131578947368421,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v1",
+      "delta_wer": 1.1842105263157894,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v2",
+      "delta_wer": 1.1081081081081081,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v3",
+      "delta_wer": 1.131578947368421,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "large-v3-turbo",
+      "delta_wer": 1.0789473684210527,
+      "errors": {}
+    },
+    {
+      "pair": "ΔWER(y_plus_dy.wav vs src_clean.wav) - (src_noisy.wav vs src_clean.wav)",
+      "model": "turbo",
+      "delta_wer": 1.0789473684210527,
+      "errors": {}
+    }
+  ],
+  "psychoacoustic": {
+    "pvr": 0.8553104928359684,
+    "me_db_mean": 14.112324789569668,
+    "me_excess_norm": 2.415206274333541
+  }
+}
